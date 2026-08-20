@@ -1,0 +1,14 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+.terraform.lock.hcl
+
+# Azure Functions
+function/local.settings.json
+__pycache__/
+.venv/
+
+# Credenciais
+azure-credentials.json
